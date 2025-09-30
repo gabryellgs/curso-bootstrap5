@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Seção de Layout</h1>
+    <button class="btn btn-primary">Clica em mim</button>
+
+    <!-- Container -->
+    <div class="container">
+        <h2>Titulo da seção</h2>
+        <p>Conteudo do container</p>
+        <p>Conteudo do container</p>
+        <p>Conteudo do container</p>     
+    </div>
+
+    <!-- Container Fluid -->
+    <div class="container-fluid">
+        <h2>Titulo da seção</h2>
+        <p>Conteudo do container</p>
+        <p>Conteudo do container</p>
+        <p>Conteudo do container</p> 
+    </div>
+
+    <!-- Container Breakpoint -->
+    <div class="container-sm">
+        <h2>Titulo da seção</h2>
+        <p>Conteudo do container</p>
+    </div>
+
+    <div class="container-md">
+        <h2>Titulo da seção</h2>
+        <p>Conteudo da seção</p>
+    </div>
+
+    <div class="container-lg">
+        <h2>Titulo da seção</h2>
+        <p>Conteudo da seção</p>
+    </div>
+
+    <!-- Grid -->
+     <div class="container">
+        <div class="row">
+            <div class="col">Produto A</div>
+            <div class="col">Produto B</div>
+        </div>
+          <div class="row">
+            <div class="col">Produto A</div>
+            <div class="col">Produto B</div>
+            <div class="col">Produto C</div>
+        </div>
+     </div>
+
+    <!-- Tamanho das colunas -->
+     
+     <div class="container" id="largura-limitada">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4"></div>
+        </div>
+     </div>
+
+     <!-- Limitação de colunas -->
+    <div class="container">
+            <div class="row row-cols-2">
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+        <div class="container">
+            <div class="row row-cols-2">
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+        <div class="container">
+            <div class="row row-cols-2">
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Alinhamento vertical -->
+     <div class="container vertical">
+        <div class="row align-items-end">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+     </div>
+
+       <div class="container vertical">
+        <div class="row align-items-center">
+            <div class="col-6"></div>
+            <div class="col-6"></div>
+        </div>
+     </div>
+
+    <!-- Alinhamento horizontal -->
+    <div class="container vertical">
+        <div class="row justify-content-end">
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+    </div>
+
+    <!-- Alinhamento de item -->
+         <div class="container vertical">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3  align-self-center"></div>
+            <div class="col-3"></div>
+            <div class="col-3 align-self-center"></div>
+
+    </div>
+    <div class="container vertical">
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4  align-self-center"></div>
+            <div class="col-4 align-self-end"></div>
+    </div>
+
+    <!-- Ordem -->
+    <div class="container vertical">
+        <div class="row">
+            <div class="col-3 order-3">3</div>
+            <div class="col-3 order-1">1</div>
+            <div class="col-3 order-4">4</div>
+            <div class="col-3 order-2">2</div>
+    </div>
+</body>
+</html>
